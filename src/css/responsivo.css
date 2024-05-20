@@ -1,0 +1,43 @@
+@media(max-width: 1280px) {
+    
+    .cabecalho {
+        padding: 30px;
+    }
+
+    .home {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+        gap: 30px;
+    }
+
+    .home .informacoes {
+        max-width: 100px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .projetos .container-projetos {
+        padding: 0 30px;
+    }
+}
+
+@media(max-width: 780px) {
+    .home .informacoes h1 {
+        font-size: 30px;
+    }
+
+    .home .informacoes p {
+        font-size: 20px;
+    }
+
+    .projeto img {
+        max-width: 260px;
+       max-height: 1000px;
+       padding: 16px;
+    }
+
+    .projetos {
+        padding: 50px;
+    }
+}
