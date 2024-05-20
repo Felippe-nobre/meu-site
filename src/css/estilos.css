@@ -130,6 +130,29 @@ body {
 	animation: gradient-animation 3s ease infinite;
 	
 }
+.conhecimento{
+	padding: 10px;
+	
+  }
+  .conhecimento > ul{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  .conhecimento > ul > li> img{
+	padding: 30px;
+   max-width: 160px; 
+   transition: .5s;
+   
+   
+  }
+  .conhecimento img:hover{
+	transform: translate(-3px, -3px);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+	transform: scale(1.05);
+	border-radius: 1px;
+  }
 
 .projetos {
 	padding: 70px 0 70px;
