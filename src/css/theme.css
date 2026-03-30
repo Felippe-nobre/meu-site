@@ -1,0 +1,156 @@
+/* 
+   🌞 LIGHT MODE (refinado)
+*/
+
+body.light {
+  --bg-main: #f1f5f9;        
+  --bg-item: #f9fafb;
+
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
+
+  --border-soft: #e2e8f0;
+
+  --accent: #ff8c00;
+  --accent-hover: #e67e00;
+
+  --shadow-soft: rgba(0, 0, 0, 0.05); 
+}
+
+
+/* BASE */
+body.light {
+  background: var(--bg-main);
+  color: var(--text-primary);
+}
+
+
+/* HEADER */
+body.light .header {
+  background: var(--bg-item);
+  border-bottom: 1px solid var(--border-soft);
+}
+
+body.light .header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    backdrop-filter: blur(10px);
+    background: var(--bg-header);
+
+    border-bottom: 1px solid var(--border-soft);
+}
+
+
+/* CARDS (mais suaves) */
+body.light .skill-box,
+body.light .project-card,
+body.light .sobre-card {
+  background: var(--bg-item);
+  border: 1px solid var(--border-soft);
+  box-shadow: 0 4px 15px var(--shadow-soft);
+}
+
+body.light .skill-box h3{
+  color: var(--text-primary);
+}
+body.light .skill-items i {
+  color: var(--text-secondary);
+}
+
+
+/*  CONTACT FORM (sem “caixa feia”) */
+body.light .contact-form {
+  background: transparent;      
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+
+/* INPUTS (agora sim fica bonito) */
+body.light .contact-form input,
+body.light .contact-form textarea {
+  background: #ffffff;
+  border: 1px solid var(--border-soft);
+  border-radius: 6px;
+  padding: 10px;
+
+  transition: 0.2s;
+}
+
+body.light .contact-form input:focus,
+body.light .contact-form textarea:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(255, 140, 0, 0.15);
+  outline: none;
+}
+
+
+/* TEXTOS */
+body.light .title {
+  color: var(--text-primary);
+}
+
+body.light p {
+  color: var(--text-secondary);
+}
+
+body.light .nome {
+  color: var(--accent);
+}
+
+
+/* BOTÕES (menos “bloco pesado”) */
+body.light .btn-primary {
+  background: var(--accent);
+  color: #fff;
+  border-radius: 6px;
+}
+
+body.light .btn-primary:hover {
+  background: var(--accent-hover);
+  transform: translateY(-1px);
+}
+
+body.light .btn-secondary {
+  background: transparent;
+  border: 1px solid var(--border-soft);
+  color: var(--text-primary);
+}
+
+body.light .btn-secondary:hover {
+  background: rgba(0,0,0,0.03); 
+}
+
+
+/* FILTROS */
+body.light .filter-btn {
+  background: transparent;
+  border: 1px solid var(--border-soft);
+  color: var(--text-secondary);
+}
+
+body.light .filter-btn.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+
+/* THEME BUTTON */
+body.light .theme-toggle {
+  background: transparent; 
+  border: 1px solid var(--border-soft);
+  color: var(--text-primary);
+}
+
+body.light .theme-toggle:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+/*footer*/
+.footer {
+ color: var(--text-primary);
+}
