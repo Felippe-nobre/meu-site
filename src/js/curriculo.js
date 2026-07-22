@@ -1,4 +1,4 @@
- document.getElementById('btn-download').addEventListener('click', function () {
+document.getElementById('btn-download').addEventListener('click', function () {
     const el = document.getElementById('curriculo');
     const opt = {
       margin: 0,

@@ -1,222 +1,222 @@
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
-    body {
-      font-family: 'Arial', sans-serif;
-      background: #e8e8e8;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 30px 20px;
-    }
+body {
+  font-family: 'Arial', sans-serif;
+  background: #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+}
 
-    #btn-download {
-      margin-bottom: 20px;
-      padding: 11px 30px;
-      background: #1a1a2e;
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      font-size: 14px;
-      cursor: pointer;
-      letter-spacing: 0.5px;
-      transition: background 0.2s;
-    }
-    #btn-download:hover { background: #333; }
+#btn-download {
+  margin-bottom: 20px;
+  padding: 11px 30px;
+  background: #1a1a2e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  transition: background 0.2s;
+}
+#btn-download:hover { background: #333; }
 
-    #curriculo {
-      width: 794px;
-      background: #fff;
-      padding: 44px 50px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.13);
-    }
+#curriculo {
+  width: 794px;
+  background: #fff;
+  padding: 44px 50px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.13);
+}
 
-    /* ── CABEÇALHO ── */
-    .cabecalho {
-      border-bottom: 2.5px solid #1a1a2e;
-      padding-bottom: 14px;
-      margin-bottom: 18px;
-    }
-    .cabecalho h1 {
-      font-size: 24px;
-      font-weight: 700;
-      color: #1a1a2e;
-      letter-spacing: 0.3px;
-    }
-    .cabecalho .cargo {
-      font-size: 11.5px;
-      color: #5a5a7a;
-      margin-top: 3px;
-      letter-spacing: 1.8px;
-      text-transform: uppercase;
-    }
-    .cabecalho .contatos {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 4px 20px;
-      margin-top: 10px;
-    }
-    .cabecalho .contatos span {
-      font-size: 11.5px;
-      color: #444;
-    }
-    .cabecalho .contatos a {
-      color: #444;
-      text-decoration: none;
-    }
+/* ── CABEÇALHO ── */
+.cabecalho {
+  border-bottom: 2.5px solid #1a1a2e;
+  padding-bottom: 14px;
+  margin-bottom: 18px;
+}
+.cabecalho h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a2e;
+  letter-spacing: 0.3px;
+}
+.cabecalho .cargo {
+  font-size: 11.5px;
+  color: #5a5a7a;
+  margin-top: 3px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+.cabecalho .contatos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 20px;
+  margin-top: 10px;
+}
+.cabecalho .contatos span {
+  font-size: 11.5px;
+  color: #444;
+}
+.cabecalho .contatos a {
+  color: #444;
+  text-decoration: none;
+}
 
-    /* ── LAYOUT ── */
-    .layout {
-      display: grid;
-      grid-template-columns: 1fr 210px;
-      gap: 28px;
-    }
+/* ── LAYOUT ── */
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 210px;
+  gap: 28px;
+}
 
-    /* ── SEÇÕES ── */
-    .secao { margin-bottom: 18px; }
+/* ── SEÇÕES ── */
+.secao { margin-bottom: 18px; }
 
-    .secao-titulo {
-      font-size: 9.5px;
-      font-weight: 700;
-      letter-spacing: 2.5px;
-      text-transform: uppercase;
-      color: #1a1a2e;
-      border-bottom: 1.5px solid #1a1a2e;
-      padding-bottom: 3px;
-      margin-bottom: 10px;
-    }
+.secao-titulo {
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #1a1a2e;
+  border-bottom: 1.5px solid #1a1a2e;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+}
 
-    /* ── RESUMO ── */
-    .resumo p {
-      font-size: 12px;
-      line-height: 1.75;
-      color: #333;
-    }
+/* ── RESUMO ── */
+.resumo p {
+  font-size: 12px;
+  line-height: 1.75;
+  color: #333;
+}
 
-    /* ── EXPERIÊNCIA ── */
-    .exp-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-    .exp-header h3 {
-      font-size: 12.5px;
-      font-weight: 700;
-      color: #1a1a2e;
-    }
-    .exp-header .periodo {
-      font-size: 11px;
-      color: #777;
-      white-space: nowrap;
-      margin-left: 8px;
-    }
-    .exp-empresa {
-      font-size: 11.5px;
-      color: #555;
-      margin-top: 1px;
-      margin-bottom: 7px;
-    }
-    .exp-lista {
-      padding-left: 15px;
-    }
-    .exp-lista li {
-      font-size: 11.5px;
-      color: #333;
-      line-height: 1.7;
-      margin-bottom: 2px;
-    }
-    .exp-stack {
-      font-size: 10.5px;
-      color: #666;
-      font-style: italic;
-      margin-top: 6px;
-    }
+/* ── EXPERIÊNCIA ── */
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.exp-header h3 {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+.exp-header .periodo {
+  font-size: 11px;
+  color: #777;
+  white-space: nowrap;
+  margin-left: 8px;
+}
+.exp-empresa {
+  font-size: 11.5px;
+  color: #555;
+  margin-top: 1px;
+  margin-bottom: 7px;
+}
+.exp-lista {
+  padding-left: 15px;
+}
+.exp-lista li {
+  font-size: 11.5px;
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 2px;
+}
+.exp-stack {
+  font-size: 10.5px;
+  color: #666;
+  font-style: italic;
+  margin-top: 6px;
+}
 
-    /* ── PROJETOS ── */
-    .proj-item { margin-bottom: 11px; }
-    .proj-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-    }
-    .proj-header h3 {
-      font-size: 12px;
-      font-weight: 700;
-      color: #1a1a2e;
-    }
-    .proj-header a {
-      font-size: 10.5px;
-      color: #5a5a7a;
-      text-decoration: none;
-    }
-    .proj-item p {
-      font-size: 11.5px;
-      color: #444;
-      line-height: 1.6;
-      margin-top: 2px;
-    }
-    .proj-tech {
-      font-size: 10.5px;
-      color: #777;
-      font-style: italic;
-      margin-top: 2px;
-    }
+/* ── PROJETOS ── */
+.proj-item { margin-bottom: 11px; }
+.proj-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.proj-header h3 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+.proj-header a {
+  font-size: 10.5px;
+  color: #5a5a7a;
+  text-decoration: none;
+}
+.proj-item p {
+  font-size: 11.5px;
+  color: #444;
+  line-height: 1.6;
+  margin-top: 2px;
+}
+.proj-tech {
+  font-size: 10.5px;
+  color: #777;
+  font-style: italic;
+  margin-top: 2px;
+}
 
-    /* ── FORMAÇÃO ── */
-    .form-header {
-      display: flex;
-      justify-content: space-between;
-    }
-    .form-header h3 {
-      font-size: 12px;
-      font-weight: 700;
-      color: #1a1a2e;
-    }
-    .form-header .periodo {
-      font-size: 11px;
-      color: #777;
-    }
-    .form-inst {
-      font-size: 11.5px;
-      color: #555;
-      margin-top: 1px;
-    }
+/* ── FORMAÇÃO ── */
+.form-header {
+  display: flex;
+  justify-content: space-between;
+}
+.form-header h3 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+.form-header .periodo {
+  font-size: 11px;
+  color: #777;
+}
+.form-inst {
+  font-size: 11.5px;
+  color: #555;
+  margin-top: 1px;
+}
 
-    /* ── LATERAL ── */
-    .comp-grupo { margin-bottom: 9px; }
-    .comp-label {
-      font-size: 11px;
-      font-weight: 700;
-      color: #1a1a2e;
-      margin-bottom: 2px;
-    }
-    .comp-label + p {
-      font-size: 11px;
-      color: #444;
-      line-height: 1.6;
-    }
+/* ── LATERAL ── */
+.comp-grupo { margin-bottom: 9px; }
+.comp-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 2px;
+}
+.comp-label + p {
+  font-size: 11px;
+  color: #444;
+  line-height: 1.6;
+}
 
-    .cert-item {
-      font-size: 11px;
-      color: #333;
-      line-height: 1.7;
-      padding-left: 9px;
-      position: relative;
-    }
-    .cert-item::before {
-      content: '·';
-      position: absolute;
-      left: 0;
-      color: #aaa;
-    }
+.cert-item {
+  font-size: 11px;
+  color: #333;
+  line-height: 1.7;
+  padding-left: 9px;
+  position: relative;
+}
+.cert-item::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: #aaa;
+}
 
-    .idioma-item {
-      font-size: 11.5px;
-      color: #333;
-      line-height: 1.6;
-    }
+.idioma-item {
+  font-size: 11.5px;
+  color: #333;
+  line-height: 1.6;
+}
 
-    @media print {
-      body { background: #fff; padding: 0; }
-      #btn-download { display: none; }
-      #curriculo { box-shadow: none; padding: 36px 44px; }
-    }
+@media print {
+  body { background: #fff; padding: 0; }
+  #btn-download { display: none; }
+  #curriculo { box-shadow: none; padding: 36px 44px; }
+}
